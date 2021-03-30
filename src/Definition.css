@@ -1,0 +1,21 @@
+.meaning {
+  transform: text-capitalize;
+  font-family: "Monoton", cursive;
+}
+
+.meaning h3 {
+  font-weight: bold;
+  line-height: 2;
+  font-size: 30px;
+}
+
+.defintion {
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+.example {
+  font-size: 18px;
+  font-style: italic;
+  opacity: 0.8;
+}

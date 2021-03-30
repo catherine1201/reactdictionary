@@ -1,0 +1,13 @@
+.Dictionary input {
+  width: 100%;
+  border-radius: 7px;
+  padding-top: 10px;
+  margin: 20px auto;
+  font-size: 25px;
+}
+
+.meaning h3 {
+  text-transform: capitalize;
+  border: 20px auto;
+  font-family: "Berkshire Swash", cursive;
+}
