@@ -1,5 +1,6 @@
 import './App.css';
 import Dictionary from "./Dictionary";
+import Logo from "./Logo.png";
 
 function App() {
   return (
@@ -7,13 +8,8 @@ function App() {
       <div className ="DictionaryApp"> 
       <header className="App-header">
        
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >   
-        </a>
+         <img src={Logo} className="App-logo img-fluid" alt="logo" />   
+        <span className="Logo-description">Cat's Dictionary</span>
         <Dictionary />
       </header>
       <footer>
